@@ -83,6 +83,11 @@ mikrotik,hap-ac3-lte6-kit)
         ucidef_set_led_netdev "lan4" "LAN4" "green:lan4" "lan4"
         ;;
 
+mikrotik,rbwapg-60ad)
+	ucidef_set_led_netdev "eth" "Ethernet" "blue:ethernet" "br-lan"
+	ucidef_set_led_wlan "wlan" "WLAN" "blue:wlan" "phy0tpt"
+	;;
+
 mikrotik,sxtsq-5-ac)
 	ucidef_set_rssimon "wlan0" "200000" "1"
 	ucidef_set_led_rssi "rssilow" "rssilow" "green:rssilow" "wlan0" "1" "100"
@@ -91,6 +96,7 @@ mikrotik,sxtsq-5-ac)
 	ucidef_set_led_rssi "rssimediumhigh" "rssimediumhigh" "green:rssimediumhigh" "wlan0" "61" "100"
 	ucidef_set_led_rssi "rssihigh" "rssihigh" "green:rssihigh" "wlan0" "81" "100"
 	;;
+
 mobipromo,cm520-79f)
 	ucidef_set_led_netdev "wan" "WAN" "blue:wan" "wan"
 	ucidef_set_led_netdev "lan1" "LAN1" "blue:lan1" "lan1"

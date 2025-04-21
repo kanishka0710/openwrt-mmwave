@@ -98,3 +98,12 @@ define Device/mikrotik_wap-ac-lte
 	DEVICE_ALT0_MODEL := wAP ac LTE6
 endef
 TARGET_DEVICES += mikrotik_wap-ac-lte
+
+define Device/mikrotik_rbwapg-60ad
+	$(call Device/mikrotik_nor)
+	DEVICE_MODEL := wAP 60G
+	SOC := qcom-ipq4019
+	DEVICE_DTS := qcom-ipq4019-rbwapg-60ad
+	DEVICE_PACKAGES += -kmod-ath10k-ct -ath10k-firmware-qca4019-ct kmod-wil6210
+endef
+TARGET_DEVICES += mikrotik_rbwapg-60ad
