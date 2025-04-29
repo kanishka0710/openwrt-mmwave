@@ -1,0 +1,6 @@
+CONFIG_TARGET_ipq40xx=y
+CONFIG_TARGET_ipq40xx_mikrotik=y
+CONFIG_TARGET_ipq40xx_mikrotik_DEVICE_mikrotik_rbwapg-60ad=y
+CONFIG_PACKAGE_libpthread=y
+CONFIG_PACKAGE_libpython3=y
+CONFIG_PACKAGE_wireless-tools=y
