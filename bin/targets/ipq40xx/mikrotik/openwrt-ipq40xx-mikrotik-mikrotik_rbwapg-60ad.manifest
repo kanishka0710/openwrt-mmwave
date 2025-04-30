@@ -1,9 +1,8 @@
 apk-mbedtls - 3.0.0_pre20250208-r2
-base-files - 1656~4fbf6b50a8
+base-files - 1656~9f021a290d
 busybox - 1.37.0-r4
 ca-bundle - 20241223-r1
 dnsmasq - 2.91-r1
-dropbear - 2024.86-r1
 firewall4 - 2025.03.17~b6e51575-r1
 fstools - 2024.12.02~49d36ba2-r1
 fwtool - 2019.11.12~8f7fe925-r1
@@ -62,6 +61,7 @@ kmod-usb-dwc3-qcom - 6.6.87-r1
 kmod-usb-xhci-hcd - 6.6.87-r1
 kmod-usb3 - 6.6.87-r1
 kmod-wil6210 - 6.6.87.6.12.6-r1
+libatomic1 - 13.3.0-r4
 libblobmsg-json20240329 - 2024.03.29~eb9bcb64-r1
 libc - 1.2.5-r4
 libgcc1 - 13.3.0-r4
@@ -73,6 +73,7 @@ libmbedtls21 - 3.6.3-r1
 libmnl0 - 1.0.5-r1
 libnftnl11 - 1.2.8-r1
 libnl-tiny1 - 2025.03.19~c0df580a-r1
+libopenssl3 - 3.0.16-r1
 libpthread - 1.2.5-r4
 libpython3-3.11 - 3.11.10-r1
 libubox20240329 - 2024.03.29~eb9bcb64-r1
@@ -88,6 +89,9 @@ netifd - 2024.12.17~ea01ed41-r1
 nftables-json - 1.1.1-r1
 odhcp6c - 2024.09.25~b6ae9ffa-r1
 odhcpd-ipv6only - 2024.05.08~a2988231-r1
+openssh-client - 10.0_p1-r1
+openssh-client-utils - 10.0_p1-r1
+openssh-keygen - 10.0_p1-r1
 openwrt-keyring - 2024.11.01~fbae29d7-r1
 ppp - 2.5.2-r1
 ppp-mod-pppoe - 2.5.2-r1
